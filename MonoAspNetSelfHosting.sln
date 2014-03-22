@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.csproj", "{D3270819-A8AB-4812-89C1-6E445C659939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHost", "WebHost\WebHost.csproj", "{D6C37EDF-50FE-4851-8EC3-8DBFA31DC7B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3270819-A8AB-4812-89C1-6E445C659939}.Debug|x86.ActiveCfg = Debug|x86
+		{D3270819-A8AB-4812-89C1-6E445C659939}.Debug|x86.Build.0 = Debug|x86
+		{D3270819-A8AB-4812-89C1-6E445C659939}.Release|x86.ActiveCfg = Release|x86
+		{D3270819-A8AB-4812-89C1-6E445C659939}.Release|x86.Build.0 = Release|x86
+		{D6C37EDF-50FE-4851-8EC3-8DBFA31DC7B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D6C37EDF-50FE-4851-8EC3-8DBFA31DC7B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{D6C37EDF-50FE-4851-8EC3-8DBFA31DC7B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{D6C37EDF-50FE-4851-8EC3-8DBFA31DC7B6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Program\Program.csproj
+	EndGlobalSection
+EndGlobal
