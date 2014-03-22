@@ -19,7 +19,7 @@ namespace ConsoleApplication6
 
             Console.WriteLine("Initializing HTTP listener...");
             var server = new HttpListener();
-            server.Prefixes.Add("http://192.168.2.24:12345/");
+			server.Prefixes.Add("http://127.0.0.1:12345/");
             server.Start();
             Console.WriteLine("Done.");
 
